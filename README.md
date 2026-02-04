@@ -22,7 +22,13 @@ El script automatiza todo el proceso: desde la descarga de un listado general de
 
 ## 📂 Estructura del Proyecto
 
-./ ├── licitacion_scraper.py # Lógica principal de scraping para cada ficha de licitación. ├── main.py # Punto de entrada principal para orquestar el proceso. ├── mop_downloader.py # Módulo para descargar el CSV inicial con la lista de licitaciones. ├── procesar_pdf_anexo.py # Módulo para extraer datos específicos de los archivos PDF. ├── settings.py # Archivo de configuración central (URLs, keywords, rutas). ├── utils.py # Funciones de utilidad (preparación de datos, exportación a Excel). └── requirements.txt # Dependencias del proyecto.
+./ 
+├── licitacion_scraper.py # Lógica principal de scraping para cada ficha de licitación. 
+├── main.py # Punto de entrada principal para orquestar el proceso. 
+├── mop_downloader.py # Módulo para descargar el CSV inicial con la lista de licitaciones. 
+├── procesar_pdf_anexo.py # Módulo para extraer datos específicos de los archivos PDF. 
+├── settings.py # Archivo de configuración central (URLs, keywords, rutas). 
+├── utils.py # Funciones de utilidad (preparación de datos, exportación a Excel). └── requirements.txt # Dependencias del proyecto.
 
 
 ## 🛠️ Tecnologías Utilizadas
